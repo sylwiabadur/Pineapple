@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.blok1 {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+#navmenu {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    margin-left: -15px;
+}
+
+.navbutton {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: rgb(134, 130, 130);
+    transition: all 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.navbutton:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+#element1 {
+    height: 100vh;
+    background-image: url("img/1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+
+#getstarted {
+    background-color: black;
+    color: rgb(218, 208, 208);
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 20px 30px;
+    border: none;
+    border: 3px solid black;
+}
+
+#getstarted:hover {
+    color: black;
+    background-color: rgb(218, 208, 208);
+    cursor: pointer;
+}
+
+.txt1 {
+    color: rgb(134, 130, 130);
+    font-size: 25px;
+    line-height: 0.7;
+}
+
+.txt2 {
+    font-size: 95px;
+    padding: 0px;
+    line-height: 0.5;
+    letter-spacing: 1.5px;
+}
+
+#two {
+    color: rgb(161, 153, 153);
+}
+
+.txt3 {
+    font-size: 40px;
+    color: black;
+}
+
+#element2 span {
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: 60px auto 0px;
+}
+
+#element2 .txt1 {
+    margin: 30px auto;
+}
+
+.photos {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.photo {
+    display: inline-block;
+    width: 25vw;
+    height: 25vw;
+    margin: 15px;
+    margin-bottom: 0;
+    transition: all 0.3s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.photo:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+#photo1 {
+    background-image: url("img/2.jpeg");
+}
+
+#photo2 {
+    background-image: url("img/3.jpeg");
+}
+
+#photo3 {
+    background-image: url("img/4.jpeg");
+}
+
+#photo4 {
+    background-image: url("img/7.jpeg");
+}
+
+#photo5 {
+    background-image: url("img/6.jpeg");
+    height: 35vw;
+}
+
+#photo6 {
+    background-image: url("img/8.jpeg");
+    height: 35vw;
+}
+
+#photo7 {
+    background-image: url("img/9.jpeg");
+}
+
+#photo8 {
+    background-image: url("img/10.jpeg");
+}
+
+#photo9 {
+    background-image: url("img/11.jpeg");
+    height: 35vw;
+}
+
+.captiontxt p {
+    color: black;
+    padding: 3px;
+    letter-spacing: 1.5px;
+}
+
+.captiontxt {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: -20px 20px;
+    color: rgb(161, 153, 153);
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+#element3 {
+    background-color: rgb(235, 226, 226);
+    background-image: url("img/5.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+}
+
+#element3 span {
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: 160px auto 0px;
+    padding-top: 100px;
+}
+
+#element3 .txt1 {
+    margin-top: -80px;
+}
+
+#element4 {
+    margin: auto;
+    text-align: center;
+}
+
+#element4 span {
+    text-align: center;
+    display: block;
+    margin: 100px auto 0px;
+    width: 70%;
+}
+
+#element4 .txt1 {
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+#element4 .photos {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#element4 .column {
+    flex: 1;
+    max-width: 30%;
+    padding: 0 5px;
+}
+
+#element4 button {
+    margin-top: 60px;
+}
+
+#element5 span {
+    text-align: center;
+    margin: 100px auto 0px;
+    display: block;
+}
+
+#element5 .txt1 {
+    margin: 20px auto;
+}
+
+#element5 {
+    background-image: url("img/12.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-x: 20%;
+}
+
+.txt4 {
+    color: black;
+    font-size: 50px;
+}
+
+#element5 img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.opinion {
+    color: gray;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.opinion i {
+    font-size: 15px;
+}
+
+.opinion i:hover {
+    color: black;
+}
+
+#element6 {
+    margin-top: 60px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#element6 span {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#element6 .txt1 {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.logos {
+    padding-bottom: 100px;
+}
+
+#element6 img {
+    padding: 0 30px;
+    display: inline-block;
+}
+
+#element6 img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#element7 {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 70px 0;
+}
+
+#subscribe {
+    flex: 2;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+#subscribe>div {
+    margin-top: 20px;
+    display: flex;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+#subscribe input {
+    background-color: lightgray;
+    border: none;
+    font-size: 20px;
+    flex: 2;
+    padding: 25px 0 25px 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#subscribe button {
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    flex: 1;
+    padding: 25px 0;
+    transition: all 0.3s;
+}
+
+#subscribe button:hover {
+    background-color: rgba(212, 177, 212, 0.918);
+    color: white;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+#subscribe i {
+    padding: 0 10px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+#subscribe i:hover {
+    border-top: 2px solid rgba(212, 177, 212, 0.918);
+}
+
+#element7 p {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+#element7 .products p:hover {
+    color: white;
+    transform: translateX(5%);
+    cursor: pointer;
+}
+
+.products {
+    flex: 1;
+    font-size: 25px;
+    line-height: 2;
+}
